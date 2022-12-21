@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counter{
+    width: 400px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 1rem #ccc;
+    border-radius: 8px;
+}
+#number{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
