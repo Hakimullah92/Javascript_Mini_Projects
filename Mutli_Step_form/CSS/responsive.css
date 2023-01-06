@@ -1,0 +1,18 @@
+@media screen and (max-width:810px) {
+    .container{
+        width: 750px;
+    }
+}
+@media screen and (max-width:768px) {
+    body{
+        align-items: flex-start;
+    }
+    .container{
+        flex-wrap: wrap;
+        overflow: visible;
+        justify-content: center;
+    }
+  .left-container{
+    display: none;
+  }
+}

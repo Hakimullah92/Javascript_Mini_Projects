@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Step FORMS</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
+    <script src="/JS/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class="left-child">
+                <p class="btn active">1</p>
+                <div class="text">
+                    <span>STEP 1</span>
+                    <p>Your Info</p>
+                </div>
+            </div>
+            <div class="left-child">
+                <p class="btn">2</p>
+                <div class="text">
+                    <span>STEP 2</span>
+                    <p>Select Plan</p>
+                </div>
+            </div>
+            <div class="left-child">
+                <p class="btn">3</p>
+                <div class="text">
+                    <span>STEP 3</span>
+                    <p>ADD-ONS</p>
+                </div>
+            </div>
+            <div class="left-child">
+                <p class="btn">4</p>
+                <div class="text">
+                    <span>STEP 4</span>
+                    <p>Summary</p>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="personal-info form-container" data-item="1">
+                <h1 class="personal-heading">Personal info</h1>
+                <p class="personal-text">Please Provide your name,email address,and Phone number</p>
+                <form>
+                    <div class="input-feild">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name...">
+                    </div>
+                    <div class="input-feild">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="abc123@gmail.com">
+                    </div>
+                    <div class="input-feild">
+                        <label for="number">Phone Number</label>
+                        <input type="number" name="number" id="number" placeholder="e-g:+1234567890">
+                    </div>
+                    <button class="next-btn">Next Step</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
